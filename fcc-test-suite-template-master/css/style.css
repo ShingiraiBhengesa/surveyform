@@ -38,7 +38,9 @@
     height: 100%;
     z-index: -1;
     background: linear-gradient(to right, var(--accent-left), var(--accent-right)),
-      url(https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    url(https://www.pexels.com/photo/pink-tulip-flower-bouquet-near-black-telephoto-lens-and-silver-computer-keyboard-843226/);
+
+      //  url(https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
