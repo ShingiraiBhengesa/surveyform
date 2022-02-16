@@ -2,25 +2,25 @@
 :root {
     --color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
-    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-darkblue-alpha: rgba(142, 86, 149, 0.91);
     --color-green: #37af65;
-  
+
     --accent-left: rgba(58, 58, 158, 0.8);
     --accent-right: rgba(136, 136, 206, 0.7);
-  
+
     --size-subheading: 1.125rem;
     --size-label: 1.125rem;
   }
-  
+
   /* Grand Reset */
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-  
+
   /* General Styles */
-  
+
   body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -28,7 +28,7 @@
     line-height: 1.6;
     color: var(--color-white);
   }
-  
+
   body::before {
     content: "";
     position: fixed;
@@ -41,37 +41,37 @@
       url(https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;
   }
-  
+
   /* Utilities */
   .container {
     margin: 3.125rem auto;
     max-width: 1080px;
   }
-  
+
   .text-center {
     text-align: center;
   }
-  
+
   .description {
     font-size: var(--size-subheading);
     margin: 1rem auto;
     text-shadow: 1px 1px #333;
   }
-  
+
   /* Header */
   header {
     padding: 2rem 1rem 1rem 1rem;
   }
-  
+
   h1 {
     font-weight: 400;
     line-height: 1.2;
     margin: 0;
     text-shadow: 1px 1px #333;
   }
-  
+
   /* Form */
   form {
     background: var(--color-darkblue-alpha);
@@ -80,26 +80,26 @@
     width: 60%;
     margin: auto;
   }
-  
+
   .form-group {
     display: flex;
     flex-direction: column;
     margin: 2rem;
   }
-  
+
   .form-group p {
     line-height: 1;
     margin: 0.5rem 0.1rem;
   }
-  
+
   .form-group p:not(:nth-child(1)) {
     margin: 0.5rem 0;
   }
-  
+
   .form-label {
     font-size: var(--size-label);
   }
-  
+
   .form-control {
     display: block;
     width: 100%;
@@ -110,17 +110,17 @@
     border: 1px solid #dddddd;
     margin-top: 0.4rem;
   }
-  
+
   input[type="radio"],
   input[type="checkbox"] {
     width: 1rem;
     height: 1rem;
   }
-  
+
   input[type="checkbox"] {
     margin-right: 0.5rem;
   }
-  
+
   textarea {
     font-size: 1.2rem;
     padding: 0.375rem 0.75rem;
@@ -129,7 +129,7 @@
     border: none;
     margin: 0.5rem 0;
   }
-  
+
   button {
     background-color: var(--color-green);
     border: none;
@@ -139,37 +139,36 @@
     font-family: "Poppins", sans-serif;
     cursor: pointer;
   }
-  
+
   /* Mobile Responsiveness */
-  
+
   @media all and (max-width: 1141px) {
     form {
       width: 80%;
     }
   }
-  
+
   @media all and (max-width: 540px) {
     form {
       width: 95%;
     }
   }
-  
+
   @media all and (max-width: 440px) {
     form {
       padding: 0.625rem;
     }
-  
+
     .form-group {
       margin: 1rem 0;
     }
-  
+
     .form-group p {
       line-height: 1.4;
       margin: 0.5rem 0.1rem;
     }
   }
-  
+
   @media all and (max-width: 320px) {
     /* nothing here */
   }
-  
