@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello We Are Software Developers</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div class="container">
+      <header class="text-center">
+        <h1 id="title">Nerd Bank Survey Form</h1>
+        <p id="description" class="description">
+          <em>Thank you for taking the time to help us improve the platform</em>
+        </p>
+      </header>
+      <form action="#" id="survey-form" class="form-label">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="number" id="number-label">Age (optional)</label>
+          <input
+            type="number"
+            min="10"
+            max="99"
+            name="age"
+            id="number"
+            placeholder="Age"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dropdown"
+            >Which branch do you currently use?</label
+          >
+          <select name="dropdown" id="dropdown" class="form-control" required>
+            <option disabled>Select Branch</option>
+            <option value="Lefkosa">Lefkosa</option>
+            <option value="Gonyeli">Gonyeli</option>
+            <option value="Magusa">Famagusta</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>How often do you visit this branch?</p>
+          <p>
+            <label>
+              <input type="radio" name="answer" id="definitely" checked />
+              Once a month
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="radio" name="answer" id="maybe" />
+              Once a week
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="radio" name="answer" id="notsure" />
+              Few times a year
+            </label>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="favorite">
+            What is your favorite feature about our mobile application?
+          </label>
+          <select name="favorite" id="favorite" class="form-control" required>
+            <option disabled>Select an option</option>
+            <option value="Shoppers">Online Shopping</option>
+            <option value="Phone Credit">Phone credit Top  Up</option>
+            <option value="Bills">Bill Paymets</option>
+            <option value="Tansfers">Online Transfers</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Within the last few months what have you used the app for? (Check all that apply)</p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Bills Payment"
+              />Bills Payment
+            </label>
+          </p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Phone Credit Top Up"
+              />Phone Credit Top UP
+            </label>
+          </p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Grocery Shopping"
+              />Grocery Shopping
+            </label>
+          </p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Tuitiom Payment"
+              />Tuition Payment
+            </label>
+          </p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Interbank Transfer"
+              />Interbank Transfer
+            </label>
+          </p>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="50"
+            rows="6"
+            placeholder="Enter your comment here..."
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
